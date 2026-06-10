@@ -1,16 +1,61 @@
-# React + Vite
+# 📄 InvoiceFlow
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A professional invoice management web application built with React. InvoiceFlow allows freelancers to create, manage, and download invoices in a clean and intuitive interface.
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+## 🚀 Features
 
-## React Compiler
+- 📋 **Dashboard** — View all invoices with summary cards showing total earned, total pending, and invoice count
+- ➕ **Create Invoice** — Add new invoices with full client and billing details
+- ✏️ **Edit Invoice** — View and update any existing invoice
+- 🧮 **Auto Calculations** — Subtotal, tax, discount, and total due calculate automatically
+- 📄 **PDF Download** — Download any invoice as a clean A4 PDF
+- 🗑️ **Delete Invoice** — Remove invoices directly from the dashboard
+- 📊 **Live Preview** — See the final invoice layout update in real time as you fill the form
+- 🎨 **Clean UI** — Minimal, professional design with status badges and action icons
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+---
 
-## Expanding the ESLint configuration
+## 🛠️ Tech Stack
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+- **React** — UI framework
+- **Vite** — Build tool
+- **React Router DOM** — Page navigation
+- **React Context API** — Global state management
+- **jsPDF** — PDF generation
+- **html2canvas** — Invoice preview to image conversion
+- **Font Awesome** — Icons
+
+---
+
+## 🧾 How to Use
+
+1. Open the app — dashboard shows all your invoices
+2. Click **New Invoice** to create a new one
+3. Fill in your info, client info, invoice details and items
+4. Tax and discount are optional — totals calculate automatically
+5. Click **Save Invoice** to add it to the dashboard
+6. Click the 👁 icon to view and edit any invoice
+7. Click the ⬇ icon to download the invoice as PDF
+8. Click the 🗑 icon to delete an invoice
+
+---
+
+## 🌐 Live Demo
+
+[View Live Demo](https://your-demo-link.vercel.app)
+
+---
+
+## 👩‍💻 Author
+
+**Nazma Begum**
+Frontend Developer
+[GitHub](https://github.com/Nijhumtara) • [Portfolio](https://your-portfolio.com)
+
+---
+
+## 📜 License
+
+This project is open source and available under the [MIT License](LICENSE).
