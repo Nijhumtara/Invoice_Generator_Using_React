@@ -52,7 +52,7 @@ https://invoice-generator-using-react.vercel.app
 
 **Nazma Begum**
 Frontend Developer
-[GitHub](https://github.com/Nijhumtara) • [Portfolio](https://your-portfolio.com)
+[GitHub](https://github.com/Nijhumtara) • [Portfolio](https://Nijhumtara.github.io/Personal-Portfolio/index.html)
 
 ---
 
